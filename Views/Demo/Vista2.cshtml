@@ -1,0 +1,12 @@
+@model MVC_Clase.Curso
+
+<h1>Clases De Comunidad IT</h1>
+<i>
+@foreach (string diaitem in Model.Dias)
+{
+    <h3 style="color:green;"> @diaitem</h3>
+    @Model.Horas
+    <br/>
+    
+}
+</i>
